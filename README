@@ -1,0 +1,20 @@
+- symlink ~/.emacs to dot-emacs.el
+- symlink ~/.emacs.d to the directory containing this readme
+- install el4r
+  - update .el4r/init.rb
+    | $:.unshift File.expand_path("~/.emacs.d/")
+    | require 'el4r/xiki_init'
+
+- install ELPA
+(let ((buffer (url-retrieve-synchronously
+	       "http://tromey.com/elpa/package-install.el")))
+  (save-excursion
+    (set-buffer buffer)
+    (goto-char (point-min))
+    (re-search-forward "^$" nil 'move)
+    (eval-region (point) (point-max))
+    (kill-buffer (current-buffer))))
+
+- install some packages
+  - js2-mode
+  - yasnippet
