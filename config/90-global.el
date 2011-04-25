@@ -34,8 +34,21 @@
 ;; don't have to C-k twice to delete the whole line
 (setq kill-whole-line t)
 
-;; tilde-files should go to a different dir
-(setq backup-directory-alist '(("." . "/tmp/emacs/")))
+;; tilde-files and #files# should go to a different dir
+(defvar user-temporary-file-directory
+  (concat temporary-file-directory user-login-name "/"))
+(make-directory user-temporary-file-directory t)
+(setq backup-by-copying t)
+(setq backup-directory-alist
+      `(("." . ,user-temporary-file-directory)
+        (,tramp-file-name-regexp nil)))
+(setq auto-save-list-file-prefix
+      (concat user-temporary-file-directory ".auto-saves-"))
+(setq auto-save-file-name-transforms
+      `((".*" ,user-temporary-file-directory t)))
+
+
+
 
 ;; highlight parens 
 (show-paren-mode 1)
@@ -81,8 +94,6 @@
 (add-hook 'javascript-mode-hook
   '(lambda ()
   (local-set-key [f8] 'jslint-thisfile)))
-
-
 
 
 ;; save a list of open files in ~/.emacs.desktop
