@@ -1,3 +1,10 @@
+;;Enable Word Wrapping in Text and org mode
+(add-hook 'text-mode-hook 'turn-on-visual-line-mode)
+(add-hook 'org-mode-hook 'turn-on-visual-line-mode)
+;;Add Ack & PDFLatex bin to exec-path
+(setenv "PATH" (concat "/Users/krishedges/bin:/Users/krishedges/.rvm/gems/ruby-1.9.2-p180/bin:/Users/krishedges/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/krishedges/.rvm/rubies/ruby-1.9.2-p180/bin:/Users/krishedges/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin:/opt/local/bin:/usr/X11/bin" (getenv "PATH")))
+(setq exec-path (append exec-path '("/Users/krishedges/bin" "/usr/local/bin/" "/usr/bin" "/usr/sbin" "/usr/local/bin" "/usr/texbin" "/opt/local/bin" "/usr/X11/bin")))
+
 ;; put scroll bar on right
 (set-scroll-bar-mode 'right)
 
@@ -47,9 +54,6 @@
 (setq auto-save-file-name-transforms
       `((".*" ,user-temporary-file-directory t)))
 
-
-
-
 ;; highlight parens 
 (show-paren-mode 1)
 
@@ -94,7 +98,6 @@
 (add-hook 'javascript-mode-hook
   '(lambda ()
   (local-set-key [f8] 'jslint-thisfile)))
-
 
 ;; save a list of open files in ~/.emacs.desktop
 ;; save the desktop file automatically if it already exists

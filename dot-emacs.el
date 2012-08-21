@@ -33,6 +33,7 @@
   ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(comint-process-echoes t)
+ '(css-indent-offset 2)
  '(egg-git-command "/usr/local/bin/git")
  '(face-font-family-alternatives (quote (("Monaco" "Bitstream Vera Sans Mono") ("arial black" "arial" "DejaVu Sans") ("arial" "DejaVu Sans") ("verdana" "DejaVu Sans"))))
  '(font-lock-keywords-case-fold-search t t)
@@ -44,12 +45,15 @@
  '(js-indent-level 2)
  '(js2-basic-offset 2)
  '(large-file-warning-threshold nil)
- '(magit-git-executable "/usr/local/bin/git")
+ '(magit-git-executable "/usr/bin/git")
+ '(org-agenda-files (quote ("~/org/donna/donna.org" "~/org/bfc/bfc.org" "~/org/orgmode/orgmode.org" "~/org/fsw/fsw.org" "~/org/personal/personal.org" "~/org/chartman/chartman.org" "~/org/osc/osc.org" "~/org/fsw/greenspotrb.org")))
  '(rspec-compilation-buffer-name "*compilation*")
  '(rspec-spec-command "spec")
  '(rspec-use-rake-flag nil)
  '(rspec-use-rvm t)
- '(show-trailing-whitespace nil))
+ '(show-paren-mode t)
+ '(show-trailing-whitespace nil)
+ '(tool-bar-mode nil))
 
 ;;; This was installed by package-install.el.
 ;;; This provides support for the package system and
@@ -67,3 +71,12 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  )
+;;Turn off Beep?
+(setq visible-bell t)
+
+;;More packages
+(require 'package)
+(add-to-list 'package-archives
+'("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
+

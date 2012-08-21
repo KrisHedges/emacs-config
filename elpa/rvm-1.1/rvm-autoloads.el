@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (rvm-use rvm-activate-corresponding-ruby rvm-use-default)
-;;;;;;  "rvm" "rvm.el" (19535 40878))
+;;;;;;  "rvm" "rvm.el" (19970 60224))
 ;;; Generated autoloads from rvm.el
 
 (autoload 'rvm-use-default "rvm" "\
@@ -26,7 +26,7 @@ switch the current ruby version to any ruby, which is installed with rvm
 
 ;;;***
 
-;;;### (autoloads nil nil ("rvm-pkg.el") (19535 40879 52281))
+;;;### (autoloads nil nil ("rvm-pkg.el") (19970 60224 860517))
 
 ;;;***
 

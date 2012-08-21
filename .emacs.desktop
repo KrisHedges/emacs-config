@@ -2,27 +2,165 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sat Apr 23 17:22:40 2011
+;; Created Mon Aug 20 16:32:34 2012
 ;; Desktop file format version 206
-;; Emacs version 22.3.1
+;; Emacs version 23.3.1
 
 ;; Global section:
-(setq desktop-missing-file-warning nil)
-(setq tags-file-name nil)
-(setq tags-table-list nil)
-(setq search-ring nil)
+(setq extended-command-history '("revert-buffer" "customize" "css-mode" "make-directory" "outline-minor-mode" "coffee-mode" "outline-mode" "ack" "grep" "checkdoc-ispell" "package-list-packages" "javascript-mode" "org-mode" "eval-region" "desktop-save"))
+(setq file-name-history '("/Users/krishedges/Projects/orby/assets/js/orby.coffee" "/Users/krishedges/Projects/orby/src/index.coffee" "/Users/krishedges/Projects/colorblindtest/views/index.jade" "/Users/krishedges/Projects/orby/src/index.coffee" "/Users/krishedges/Projects/colorblindtest/assets/js/index.coffee" "/Users/krishedges/Projects/orby/assets/js/orby.coffee" "/Users/krishedges/Projects/orby/src/index.coffee" "/Users/krishedges/Projects/colorblindtest/app/index.js" "/Users/krishedges/Projects/colorblindtest/views/index.jade" "/Users/krishedges/Projects/orby/src/index.coffee" "/Users/krishedges/Projects/colorblindtest/views/layout.jade" "/Users/krishedges/Projects/colorblindtest/views/index.jade" "/Users/krishedges/Projects/orby/views/index.jade" "/Users/krishedges/Projects/orby/assets/js/orby.coffee" "/Users/krishedges/Projects/orby/assets/js/render.coffee" "/Users/krishedges/Projects/orby/src/index.coffee" "/Users/krishedges/Projects/colorblindtest/views/index.jade" "/Users/krishedges/Projects/colorblindtest/assets/js/index.coffee" "~/Projects/orby" "/Users/krishedges/Projects/colorblindtest/assets/js/index.coffee" "/Users/krishedges/Projects/colorblindtest/views/index.jade" "/Users/krishedges/Projects/colorblindtest/Cakefile" "/Users/krishedges/Projects/orby/package.json" "/Users/krishedges/Projects/orby/assets/js/orby.coffee" "/Users/krishedges/Projects/orby/assets/css/orby.styl" "/Users/krishedges/Experiments/jstimer-experiments/assets/css/index.styl" "/Users/krishedges/Experiments/jstimer-experiments/views/index.jade" "/Users/krishedges/Experiments/jstimer-experiments/assets/js/index.coffee" "/Users/krishedges/Experiments/InkSpeckExpressTemplate/assets/js/index.coffee" "/Users/krishedges/Experiments/InkSpeckExpressTemplate/views/index.jade"))
+(setq grep-history '("grep -nH -e confetti" "grep -nH -e 'favor'" "grep -nH -e av" "grep -nH -e favor" "grep -nH -e confetti"))
+(setq compile-history nil)
+(setq minibuffer-history '("css-indent-offset" "org-export-with-drawers" "CSS"))
+(setq query-replace-history '("" "#{imagecount}" "png" "jpg" "jpg" "png" "*" "* required" "" "}" "" "{" "" ";" "->" "function(){" "" "var " "" ";" " " ":" "" "}" "" "{" "@set" "@use" "app" "express"))
+(setq read-expression-history nil)
+(setq regexp-history nil)
 (setq regexp-search-ring nil)
-(setq register-alist nil)
+(setq search-ring '("publicDir" "togg" "curs" "getset" "getSe" "json" "image" "para" "getSet" "layout" "schem" "Tota" "p" "indivi" "wpcf" "inpout"))
+(setq shell-command-history '("touch notes.org" "mkdir david" "mkdir public/screengrabs/" "mkdir public" "cp ../../../Projects/orby/views/layout.jade ." "mv jstimer/ InkSpeckExpressTemplate" "mkdir images" "mv orby.coffee index.coffee" "mv orby.styl index.styl" "cp -R orby/ ../Experiments/jstimer" "mkdir ../Experiments/jstimer" "touch render.styl" "mv bin/ ../bin" "touch render.coffee" "render.coffee" "cp layout.jade renderlayout.jade" "cp index.jade render.jade" "touch donna.org" "donna.org" "mkdir donna" "touch bfc.org" "mkdir bfc" "mkdir phimages" "mv index.styl fluidity.styl" "mv fluidity.styl index.styl" "touch index.jade" "touch layout.jade" "mkdir views" "mv Cakefile ../orby/Cakefile" "mv app.coffee index.coffee"))
+(setq tags-file-name nil)
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/Users/Kris/emacs-config/config/90-global.el"
-  "90-global.el"
-  'emacs-lisp-mode
-  '(yas/minor-mode)
-  2810
-  '(1949 t)
+  "/Users/krishedges/Projects/colorblindtest/src/index.coffee"
+  "index.coffee<2>"
+  'coffee-mode
+  nil
+  2085
+  '(1165 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/krishedges/Projects/colorblindtest/assets/js/index.coffee"
+  "index.coffee<3>"
+  'coffee-mode
+  nil
+  315
+  '(268 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/krishedges/Projects/orby/src/index.coffee"
+  "index.coffee"
+  'coffee-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/krishedges/Projects/colorblindtest/views/index.jade"
+  "index.jade"
+  'jade-mode
+  nil
+  79
+  '(250 nil)
+  nil
+  nil
+  '((tab-width . 2) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "src"
+  'dired-mode
+  nil
+  264
+  '(nil nil)
+  t
+  '("/Users/krishedges/Projects/colorblindtest/src/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "colorblindtest"
+  'dired-mode
+  nil
+  1017
+  '(nil nil)
+  t
+  '("/Users/krishedges/Projects/colorblindtest/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/krishedges/org/david/notes.org"
+  "notes.org"
+  'org-mode
+  '(visual-line-mode)
+  30
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "david"
+  'dired-mode
+  nil
+  243
+  '(nil nil)
+  t
+  '("/Users/krishedges/org/david/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "org"
+  'dired-mode
+  nil
+  426
+  '(nil nil)
+  t
+  '("/Users/krishedges/org/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/krishedges/Projects/orby/views/index.jade"
+  "index.jade<2>"
+  'jade-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/krishedges/Projects/orby/assets/js/render.coffee"
+  "render.coffee"
+  'coffee-mode
+  nil
+  818
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "js"
+  'dired-mode
+  nil
+  264
+  '(nil nil)
+  t
+  '("/Users/krishedges/Projects/colorblindtest/assets/js/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "assets"
+  'dired-mode
+  nil
+  321
+  '(nil nil)
+  t
+  '("/Users/krishedges/Projects/colorblindtest/assets/")
+  nil)
 

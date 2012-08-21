@@ -1,0 +1,27 @@
+[submodule "ext/jxa-elisp"]
+	path = ext/jxa-elisp
+	url = git://github.com/jxa/elisp.git
+[submodule "ext/mysnippets"]
+	path = ext/mysnippets
+	url = git://github.com/jxa/mysnippets.git
+[submodule "ext/rhtml"]
+	path = ext/rhtml
+	url = git://github.com/eschulte/rhtml.git
+[submodule "ext/xiki"]
+	path = ext/xiki
+	url = git://github.com/jxa/xiki.git
+[submodule "ext/jd-el"]
+	path = ext/jd-el
+	url = git://git.naquadah.org/~jd/jd-el.git
+[submodule "ext/rspec-mode"]
+	path = ext/rspec-mode
+	url = http://github.com/pezra/rspec-mode.git
+[submodule "ext/epresent"]
+	path = ext/epresent
+	url = git://github.com/technomancy/epresent.git
+[submodule "coffee-mode"]
+	path = ext/coffee-mode
+	url = git://github.com/defunkt/coffee-mode.git
+[submodule "ext/jade-mode"]
+	path = ext/jade-mode
+	url = git://github.com/brianc/jade-mode.git

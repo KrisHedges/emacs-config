@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (ack-find-file ack-find-same-file ack ack-same)
-;;;;;;  "full-ack" "full-ack.el" (19641 8881))
+;;;;;;  "full-ack" "full-ack.el" (20260 35928))
 ;;; Generated autoloads from full-ack.el
 
 (autoload 'ack-same "full-ack" "\
@@ -44,7 +44,7 @@ Prompt to find a file found by ack in DIRECTORY.
 
 ;;;***
 
-;;;### (autoloads nil nil ("full-ack-pkg.el") (19641 8881 479714))
+;;;### (autoloads nil nil ("full-ack-pkg.el") (20260 35928 789902))
 
 ;;;***
 

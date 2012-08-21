@@ -21,7 +21,10 @@
 	url = git://github.com/technomancy/epresent.git
 [submodule "coffee-mode"]
 	path = ext/coffee-mode
-	url = https://github.com/defunkt/coffee-mode.git
+	url = git://github.com/defunkt/coffee-mode.git
 [submodule "ext/jade-mode"]
 	path = ext/jade-mode
-	url = https://github.com/brianc/jade-mode.git
+	url = git://github.com/brianc/jade-mode.git
+[submodule "ext/markdown-mode"]
+  path = ext/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git

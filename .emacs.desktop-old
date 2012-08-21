@@ -1,0 +1,177 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Jun 27 12:58:14 2012
+;; Desktop file format version 206
+;; Emacs version 23.3.1
+
+;; Global section:
+(setq extended-command-history '("org-mode" "eval-region" "package-list-packages" "eval-region" "org-export-htmlize-generate-css" "package-list-packages" "org-export-htmlize-generate-css" "package-list-packages-no-fetch" "eval-region" "org-export-htmlize-generate-css" "eval-region" "org-export-htmlize-generate-css" "package-list-packages" "org-export-htmlize-generate-css" "eval-region" "org-export-htmlize-generate-css" "eval-region" "org-export-htmlize-generate-css" "eval-region" "package-list-packages" "remember" "eval-region" "package-list-packages" "package-install" "package-list-packages" "org-reload" "eval-region" "align" "defining-kbd-macro" "package-list-packages"))
+(setq file-name-history '("/Users/krishedges/org/orgmode/css/orgmode.css" "/Users/krishedges/org/orgmode/orgmode.html" "/Users/krishedges/org/orgmode/js/orgmode.js" "/Users/krishedges/org/orgmode/prettify/prettify.js" "/Users/krishedges/org/orgmode/orgmode.org" "/Users/krishedges/org/orgmode/orgmode.css" "/Users/krishedges/org/orgmode/orgmode.org" "/Users/krishedges/org/orgmode/orgmode.css" "/Users/krishedges/org/personal/orgmode.org" "/Users/krishedges/org/personal/orgmode.css" "/Users/krishedges/emacs-config/config/90-global.el" "/Users/krishedges/org/personal/neworg.org" "/Users/krishedges/emacs-config/config/90-global.el" "/Users/krishedges/emacs-config/config/99-keybindings.el" "/Users/krishedges/org/personal/personal.org" "/Users/krishedges/emacs-config/config/99-keybindings.el" "/Library/Python/2.6/site-packages/Pygments-1.5-py2.6.egg/pygments/styles/tango.py" "/Users/krishedges/emacs-config/config/99-keybindings.el" "/Users/krishedges/org/personal/orgmode.pyg" "/Users/krishedges/org/personal/personal.org" "/Users/krishedges/emacs-config/config/99-keybindings.el" "/Users/krishedges/emacs-config/config/90-global.el" "/Users/krishedges/emacs-config/config/99-keybindings.el" "/Users/krishedges/emacs-config/dot-emacs.el" "/Users/krishedges/emacs-config/config/99-keybindings.el" "/Users/krishedges/emacs-config/elpa/org-20120620/org-latex.el" "/Users/krishedges/emacs-config/elpa/org-20120620/dir" "/Users/krishedges/emacs-config/elpa/org-20120620/org-latex.el" "/Users/krishedges/emacs-config/config/99-keybindings.el" "/Users/krishedges/org/personal/orgmode.org"))
+(setq grep-history '("grep -nH -e things"))
+(setq compile-history nil)
+(setq minibuffer-history '("htmlize, pygments" "Emacs Lisp Intro" "Elisp" "org-export-html-expand" "org-export-htmlize-output-type" "org-export-htmlized-org-css-url" "org-export-latex-classes" "org" "org-latex-to-pdf-process" "org-export-latex-minted-options" "org-export-latex-minted" "org-export-latex-minted-options" "gre" "org2blog" "xml-rpc" "org2blog" "2" "ALL" "all" "0" "DONE" "ALL" "org-startup-truncated" "The line" "Add stylus to config?" "Org-Mode in Emacs Config file" "l" "" ":" "full-ack"))
+(setq query-replace-history '("section-number-" "sec-" "to-do" "todo" "|" "," "TeX" "Tex" "LaTeX" "Latex" "" "\\" "" "" "\n" "" "\"" ":" "my_class" "self.class" "" "slef.class" "" "style=\"*\"" "" ";" "" "}" "" "{"))
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq search-ring '("HTML" "$" "LaTeX is" "exporting L" "exporting l" "with these " "instead" "at your" "to use these" "pagebreak" "pagebre" "#+ST" "pageb" "M-x" "org-contain" "prett"))
+(setq shell-command-history '("touch js/orgmode.js" "mv orgmode.css css/orgmode.css" "mkdir js" "mkdir css" "touch orgmode.css" "sudo cp emacs.py mine.py" "cp emacs.py mine.py" "mv orgmode.pyg old_orgmode.pyg" "mv old_orgmode.pyg orgmode.pyg " "mv orgmode.pyg old_orgmode.pyg " "ruby def add_em_up(x y)\n  x + y\nend" "ruby  def add_em_up(x,y)\n   x + y\n end" "ack -g greenspot" "env" "pdflatex" "touch personal.org" "mkdir personal" "mkdir chartman" "osc.org" "mv people/ customers" "mkdir people" "mkdir osc" "osc" "mv Org/ org/" "ack windmove" "mkdir FSW" "mkdir Org" "touch learn.rb" "mv learn.rb old_learn.rb" "touch index.js"))
+(setq tags-file-name nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/krishedges/org/orgmode/orgmode.org"
+  "orgmode.org"
+  'org-mode
+  '(visual-line-mode)
+  21531
+  '(20623 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/Users/krishedges/org/orgmode/css/orgmode.css"
+  "orgmode.css<2>"
+  'css-mode
+  '(yas/minor-mode)
+  429
+  '(1067 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/krishedges/org/orgmode/js/orgmode.js"
+  "orgmode.js"
+  'js2-mode
+  nil
+  348
+  '(31 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "emacs-config"
+  'dired-mode
+  nil
+  1209
+  '(nil nil)
+  t
+  '("/Users/krishedges/emacs-config/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "js"
+  'dired-mode
+  nil
+  244
+  '(nil nil)
+  t
+  '("/Users/krishedges/org/orgmode/js/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/krishedges/org/orgmode/prettify/prettify.js"
+  "prettify.js"
+  'js2-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/krishedges/org/orgmode/orgmode.tex"
+  "orgmode.tex"
+  'latex-mode
+  '(visual-line-mode yas/minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/Users/krishedges/org/orgmode/prettify/prettify-obs.css"
+  "prettify-obs.css"
+  'css-mode
+  '(yas/minor-mode)
+  84
+  '(78 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  nil
+  "prettify"
+  'dired-mode
+  nil
+  1471
+  '(nil nil)
+  t
+  '("/Users/krishedges/org/orgmode/prettify/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "css"
+  'dired-mode
+  nil
+  245
+  '(nil nil)
+  t
+  '("/Users/krishedges/org/orgmode/css/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "orgmode"
+  'dired-mode
+  nil
+  317
+  '(nil nil)
+  t
+  '("/Users/krishedges/org/orgmode/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/krishedges/org/orgmode/orgmode.html"
+  "orgmode.html"
+  'html-mode
+  '(visual-line-mode yas/minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . iso-latin-1-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  nil
+  1616
+  '(nil nil)
+  t
+  '("/Applications/Emacs.app/Contents/Resources/info/eintr" "Top")
+  '((tab-width . 8) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  nil
+  "elpa"
+  'dired-mode
+  nil
+  1398
+  '(nil nil)
+  t
+  '("/Users/krishedges/emacs-config/elpa/")
+  nil)
+
