@@ -46,7 +46,7 @@
  '(js2-basic-offset 2)
  '(large-file-warning-threshold nil)
  '(magit-git-executable "/usr/bin/git")
- '(org-agenda-files (quote ("~/org/donna/donna.org" "~/org/bfc/bfc.org" "~/org/orgmode/orgmode.org" "~/org/fsw/fsw.org" "~/org/personal/personal.org" "~/org/chartman/chartman.org" "~/org/osc/osc.org" "~/org/fsw/greenspotrb.org")))
+ '(org-agenda-files (quote ("~/Projects/chromanope.org" "~/org/donna/donna.org" "~/org/bfc/bfc.org" "~/org/orgmode/orgmode.org" "~/org/fsw/fsw.org" "~/org/personal/personal.org" "~/org/chartman/chartman.org" "~/org/osc/osc.org" "~/org/fsw/greenspotrb.org")))
  '(rspec-compilation-buffer-name "*compilation*")
  '(rspec-spec-command "spec")
  '(rspec-use-rake-flag nil)

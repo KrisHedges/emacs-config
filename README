@@ -1,5 +1,6 @@
 - symlink ~/.emacs to dot-emacs.el
 - symlink ~/.emacs.d to the directory containing this readme
+
 - install el4r
   - update .el4r/init.rb
     | $:.unshift File.expand_path("~/.emacs.d/")

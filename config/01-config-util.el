@@ -10,3 +10,4 @@
 (defun emacswiki-path (path)
   "return path to library acquired from emacswiki"
   (concat ja-emacswiki-dir path))
+
